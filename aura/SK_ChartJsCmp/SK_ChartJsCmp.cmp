@@ -1,0 +1,18 @@
+<aura:component controller="SK_ChartJsCmpController">
+    <aura:attribute name="ltngChartData" type="Object"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <div class="slds-grid slds-wrap">
+        
+        <div class="slds-size--1-of-1 slds-medium-size--1-of-1 slds-large-size--1-of-1" >
+            <div class="slds-card__body slds-card__body_inner"  aura:id="lineChartSection"/>
+        </div>
+        <div class="slds-size--1-of-1 slds-medium-size--1-of-1 slds-large-size--1-of-1" >
+            <div class="slds-card__body slds-card__body_inner"  aura:id="horrizontalBarChartSection"/>
+        </div>
+        <div class="slds-size--1-of-1 slds-medium-size--1-of-1 slds-large-size--1-of-1" >
+            <div class="slds-card__body slds-card__body_inner"  aura:id="pieChartSection"/>
+        </div>
+    </div>
+    
+                    
+</aura:component>

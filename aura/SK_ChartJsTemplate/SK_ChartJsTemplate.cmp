@@ -1,0 +1,10 @@
+<aura:component >
+    <ltng:require scripts="{!$Resource.SK_Chartjs}" afterScriptsLoaded="{!c.generateChart}"/>
+    <aura:attribute name="ltngChartData" type="object"/>
+    <aura:attribute name="ltngChartType" type="String" default="pie"/>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-size--1-of-1 slds-medium-size--1-of-1 slds-large-size--1-of-1" >
+            <canvas aura:id="chartdiv" ></canvas>
+        </div>
+    </div>
+</aura:component>

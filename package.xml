@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>SK_ChartJsCmpController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SK_ChartJsCmp</members>
+        <members>SK_ChartJsCmpApp</members>
+        <members>SK_ChartJsTemplate</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>SK_Chartjs</members>
+        <name>StaticResource</name>
+    </types>
+    <version>41.0</version>
+</Package>
