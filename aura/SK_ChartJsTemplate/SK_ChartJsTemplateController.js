@@ -2,7 +2,7 @@
     generateChart : function(component, event, helper) {
         //for bar chart
         var pieChartData = component.get("v.ltngChartData");
-        console.log('****labels in generatechart in Lego_pieChart:'+JSON.stringify(pieChartData));
+        console.log('****chart data:'+JSON.stringify(pieChartData));
         var chartLabel = component.get("v.ltngChartType") + ':Opportunities Grouped By Forcast Category';
         var cdata = {
             labels: pieChartData.labels,
